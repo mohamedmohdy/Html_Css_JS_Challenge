@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div{
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: rgb(44, 160, 232);
+    width: 900px;
+    border-radius: 6px;
+    color: white;
+    position: relative;
+}
+div label{
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 7px;
+}
+div input, div textarea{
+    width: 90%;
+    height: 35px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    text-indent: 5px;
+}
+div input , div textarea{
+    font-size: 15px;
+    font-weight: bold;
+}
+div .button_Form{
+    display: block;
+    padding: 12px;
+    border-radius: 5px;
+    background-color:rgb(46, 53, 181);
+    border: none;
+    outline: aquamarine;
+    margin-top: 14px;
+    color:white;
+    position: absolute;
+    right: 85px;
+}
+div .search{
+    margin-top: 60px;
+}
+div .button_Form:hover{
+    cursor: pointer;
+}
+h3{
+    padding-top: 20px;
+}
+h3 span{
+    color: rgb(16, 31, 198);
+}
+table{
+    margin: 0 auto;
+    margin-top: 65px;
+    
+}
+table th{
+    padding-right: 25px;    
+   
+}
+table td{
+    padding-top: 10px;
+}
+table tbody .price{
+    color:red;
+    font-weight: bold;
+}
+div table .Button_Display_delet{
+    padding: 9px;
+    border-radius: 5px;
+    background-color:rgb(205, 13, 13);
+    border: none;
+    outline: aquamarine;
+    color:white;
+    margin-left: 10px;
+    margin-right: 5px;
+} 
+div table .Button_Display_update{
+    padding: 9px;
+    border-radius: 5px;
+    background-color:rgb(205, 199, 13);
+    border: none;
+    outline: aquamarine;
+    color:white;
+} 
+div table .Button_Display_update:hover,.Button_Display_delet:hover{
+    cursor: pointer;
+} 
